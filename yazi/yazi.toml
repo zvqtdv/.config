@@ -5,7 +5,7 @@
 [mgr]
 # ratio          = [ 1, 4, 3 ]
 # ratio          = [ 4, 4, 0 ]
-ratio          = [ 3, 5, 1 ]
+ratio          = [ 2, 5, 1 ]
 sort_by        = "alphabetical"
 # sort_by        = "size"
 sort_sensitive = false
