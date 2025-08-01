@@ -13,7 +13,8 @@ au('InsertEnter', {
   end,
 })
 
-vim.cmd.colorscheme('zcolo')
+-- vim.cmd.colorscheme('zcolo')
+-- vim.cmd.colorscheme('cold')
 
 
 require("plugins")

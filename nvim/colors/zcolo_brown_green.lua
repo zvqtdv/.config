@@ -77,7 +77,7 @@ if vim.fn.exists('syntax_on') == 1 then
   vim.cmd('syntax reset')
 end
 
-vim.g.colors_name = 'zcolo'
+vim.g.colors_name = 'custom'
 
 for group, settings in pairs(groups) do
   vim.api.nvim_set_hl(0, group, settings)

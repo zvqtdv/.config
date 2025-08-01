@@ -13,7 +13,8 @@ $character"""
 [directory]
 # style = "blue"
 # style = "green"
-read_only = " ro"
+# read_only = " ro"
+read_only = " #427b58 "
 
 [character]
 # success_symbol = "[❯](purple)"
