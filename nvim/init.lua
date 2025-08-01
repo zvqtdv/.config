@@ -3,6 +3,7 @@
 -- zvqtdu's neovim config
 vim.loader.enable()
 require('core')
+-- require('internal')
 require('internal')
 
 -- 文件夹的分级可以用英语句号.来分割,不需要标注.lua后缀名
