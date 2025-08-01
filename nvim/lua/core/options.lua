@@ -60,4 +60,5 @@ opt.clipboard:append("unnamedplus")
 --opt.rocks.hererocks = false
 --opt.rocks.enabled = false
 
+opt.cmdheight = 1
 

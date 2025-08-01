@@ -41,6 +41,7 @@ require("lazy").setup({
 
   require("plugins.comment"),
   require("plugins.tabline"),
+  -- require("plugins.cold"),
 
 
 },{
