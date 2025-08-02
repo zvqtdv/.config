@@ -30,7 +30,7 @@ opt.foldlevel = 99
 opt.winwidth = 30
 opt.pumheight = 15
 opt.list = true
-opt.listchars = 'tab:»·,nbsp:+,trail:·,extends:→,precedes:←'
+-- opt.listchars = 'tab:»·,nbsp:+,trail:·,extends:→,precedes:←'
 --opt.completeopt = 'menu,menuone,noselect,popup'
 opt.fillchars = {
   stl = ' ',
@@ -57,8 +57,44 @@ opt.clipboard:append("unnamedplus")
 --opt.splitright = true
 --opt.splitbelow = true
 
+
 --opt.rocks.hererocks = false
 --opt.rocks.enabled = false
 
+-- opt.tabline = " [%n]%f "
+-- opt.tabpagebuflist = " a:n "
+
+-- opt.winbar = "%=%m %f"
+opt.winbar = " %F%m "
+opt.winborder = "double"
+
+
 opt.cmdheight = 1
+
+
+-- opt.statusline = ' [%n] %<%f | %F | %l,%cV %y'
+-- opt.statusline = ' @%{hostname()}  %=[%n]%f%= | %l,%c%V | %{&fenc} | %{&ff} | %y  '
+opt.statusline = ' @%{hostname()} | %l,%c%V | %P | %m %=[%n]%f  %{&fdm}%= | %{&et},%{&ts},%{&sw} | %l,%c%V | %{&fenc} | %{&ff} | %y  '
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

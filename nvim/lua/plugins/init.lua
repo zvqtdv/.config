@@ -40,7 +40,7 @@ require("lazy").setup({
   -- checker = { enabled = true },
 
   require("plugins.comment"),
-  require("plugins.tabline"),
+  -- require("plugins.tabline"),
   -- require("plugins.cold"),
 
 
