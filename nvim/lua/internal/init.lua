@@ -13,7 +13,7 @@ au('InsertEnter', {
   end,
 })
 
--- vim.cmd.colorscheme('zcolo')
+vim.cmd.colorscheme('zculor')
 -- vim.cmd.colorscheme('cold')
 
 
