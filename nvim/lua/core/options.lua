@@ -61,6 +61,19 @@ opt.clipboard:append("unnamedplus")
 --opt.rocks.hererocks = false
 --opt.rocks.enabled = false
 
+
+
+-- if exists('$TMUX')
+-- opt term=screen-256color
+-- endif
+-- if vim.fn.exists('$TMUX') == 1 then
+--   opt.term = 'screen-256color'
+-- end
+-- if vim.env.TMUX ~= nil then
+--   vim.opt.term = 'screen-256color'
+-- end
+
+
 -- opt.tabline = " [%n]%f "
 -- opt.tabpagebuflist = " a:n "
 
@@ -75,26 +88,6 @@ opt.cmdheight = 1
 -- opt.statusline = ' [%n] %<%f | %F | %l,%cV %y'
 -- opt.statusline = ' @%{hostname()}  %=[%n]%f%= | %l,%c%V | %{&fenc} | %{&ff} | %y  '
 opt.statusline = ' @%{hostname()} | %l,%c%V | %P | %m %=[%n]%f  %{&fdm}%= | %{&et},%{&ts},%{&sw} | %l,%c%V | %{&fenc} | %{&ff} | %y  '
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
