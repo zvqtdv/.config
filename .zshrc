@@ -19,6 +19,14 @@ function y() {
 	rm -f -- "$tmp"
 }
 
+# export http_proxy="223.6.6.6:10808"
+# export https_proxy="223.6.6.6:10808"
+# export http_proxy="http://$host_ip:10808"
+# export https_proxy="http://$host_ip:10808"
+# export all_proxy="sock5://223.6.6.6:10808"
+# export ALL_PROXY="sock5://223.6.6.6:10808"
+
+
 export EDITOR=nvim
 
 eval "$(starship init zsh)"
